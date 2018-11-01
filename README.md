@@ -2,7 +2,7 @@
 
 > Created as part of SPIKE to learn how to use FeatherJS and Sequelize
 
-In `config/default.json` change postgres URI to a database with table `movies` and columns `id, title, genre, rating, createdat, updated at`. Data types can be found under `src/models/movies.model.js`
+In `config/default.json` change postgres URI to a database `Movies` with table `movies` and columns `id, title, genre, rating, createdat, updated at`. Data types can be found under `src/models/movies.model.js`
 
 ### How to run locally
 `npm start`
@@ -12,7 +12,7 @@ In `config/default.json` change postgres URI to a database with table `movies` a
 docker build -t movies . 
 docker run -p 8080:3030 -d movies:latest
 ```
-API Service is now availble in 
+API Service is now available in 
 `http://localhost:8080/movies`
 
 ### License
